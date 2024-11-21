@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lysandre Chaabi</title>
+    <!-- Custom Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites/dist/css/foundation.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            text-align: center;
+            margin: 20px;
+        }
+        img {
+            max-width: 150px; /* Taille réduite de la photo */
+            height: auto;
+            border-radius: 50%;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+            margin: 20px 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            font-weight: 700;
+            color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Lysandre photo.jpeg" alt="Photo de Lysandre Chaabi">
+        <h1>Welcome to my portfolio</h1>
+        <p>Discover my work, my CV and my articles.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="portfolio.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="work.html">My Work</a></li>
+        </ul>
+    </nav>
+
+    <main class="grid-container">
+        <div class="grid-x grid-padding-x">
+            <div class="cell small-12 medium-6">
+                <h2>My articles</h2>
+                <p>discover my website l'observateur moderne and some of my articles</p>
+                <a href="work.html" class="button">My work</a>
+            </div>
+            <div class="cell small-12 medium-6">
+                <h2>My resume</h2>
+                <p>Consult my professional and academic background.</p>
+                <a href="cv.html" class="button hollow">my resume</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lysandre Chaabi</p>
+    </footer>
+
+    <!-- Foundation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites/dist/js/foundation.min.js"></script>
+</body>
+</html>
